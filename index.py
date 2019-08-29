@@ -1,4 +1,5 @@
 # ### Problem 1:
+# !! : more commnets 
 # Create a Movie class with the following properties/attributes: ```movieName```, ```rating```, and ```yearReleased```.
 # * Override the default ```str``` (to-String) method and implement the code that will print the value of all the properties/attributes of the Movie class
 # 
@@ -13,11 +14,8 @@ class Movie:
         self.rating = rating
         self.yearReleased = yearReleased
 
-    def __str__(self):
+    def __str__(self): # !! : implement the code that will print the value of all the properties/attributes of the Movie class
         return 'Over the rainbow'
-
-
-
 
 def funkyfunction():
 
@@ -26,7 +24,6 @@ def funkyfunction():
 
     print(blah)
     print(blahah)
-
 
 # ### Problem 2:
 # Create a class Product that represents a product sold online.
@@ -46,11 +43,8 @@ class Shamwow:
         self.name = name
 
 
-    def __str__(self):
+    def __str__(self): # !! : implement the code that will print the value of all the properties/attributes of the Movie class
         return 'Lucky Ducky'
-
-
-
 
 def thisFunc():
     billy = Shamwow('5.99', 'alot', 'mr clean')
